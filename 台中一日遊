@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>台中一日遊</title>
+
+<style>
+body {
+font-family: Arial, sans-serif;
+background-color: #f5f1e8;
+margin: 40px;
+line-height: 1.8;
+}
+
+h1 {
+text-align: center;
+font-size: 40px;
+}
+
+.route {
+text-align: center;
+background-color: white;
+padding: 20px;
+border-radius: 15px;
+}
+
+.place {
+background-color: white;
+width: 80%;
+margin: 30px auto;
+padding: 25px;
+border-radius: 15px;
+box-sizing: border-box;
+}
+
+h2 {
+color: #4f6048;
+}
+
+img {
+width: 60%;
+height: auto;
+display: block;
+margin: 0px auto;
+border-radius: 15px;
+opacity: 1.0;
+transition: 0.3s;
+}
+img:hover {
+  opacity: 0.6;
+}
+
+.feedback {
+background-color: white;
+padding: 25px;
+margin: 30px 0;
+border-radius: 15px;
+text-align: center;
+}
+
+.feedback label {
+margin: 10px;
+}
+
+textarea {
+width: 90%;
+height: 80px;
+padding: 10px;
+border-radius: 10px;
+}
+
+button {
+margin-top: 15px;
+padding: 10px 25px;
+border: none;
+border-radius: 20px;
+background-color: #4f6048;
+color: white;
+cursor: pointer;
+}
+
+button:hover {
+opacity: 0.7;
+}
+
+footer {
+text-align: center;
+margin-top: 40px;
+padding: 30px;
+color: #666;
+font-size: 14px;
+}
+
+footer p {
+margin: 5px;
+}
+
+footer a {
+color: #4f6048;
+text-decoration: none;
+}
+
+footer a:hover {
+text-decoration: underline;
+}
+
+.route,
+.place,
+.feedback {
+width: 80%;
+margin-left: auto;
+margin-right: auto;
+box-sizing: border-box;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>台中一日遊</h1>
+
+<p style="text-align:center;">
+從舊城一路玩到海線，一天看見台中的不同風景。
+</p>
+
+<div class="route">
+<b>今日路線</b><br>
+臺中州廳 → 審計新村 → 臺中國家歌劇院 → 高美濕地
+</div>
+
+<div class="place">
+<h2>01｜臺中州廳</h2>
+<img src="https://taichung.travel/content/images/attractions/58277/1024x768_attractions-image-x6kijvyxb0oowy5c_7qpaq.jpg" alt="臺中州廳">
+<p>
+臺中州廳是台中具有代表性的歷史建築之一，
+街角式配置與醒目的建築外觀，留下台中城市發展的歷史痕跡。
+</p>
+<p>
+地址：臺中市西區民權路99號<br>
+建議停留：30～50分鐘
+</p>
+</div>
+
+<div class="place">
+<h2>02｜審計新村</h2>
+<img src="https://kiann.jx-starlux.com/uploads/e60d442ebe000f062c295c5b53aa32de.jpg" alt="審計新村">
+<p>
+昔日的員工宿舍經過空間活化，
+現在成為集合文創品牌、特色店家與市集的生活聚落，
+適合散步、逛店與拍照。
+</p>
+<p>
+地址：臺中市西區民生路368巷<br>
+門票：免費
+</p>
+</div>
+
+<div class="place">
+<h2>03｜臺中國家歌劇院</h2>
+<img src="https://travel.taichung.gov.tw/image/24379/1024x768" alt="臺中國家歌劇院">
+<p>
+由日本建築師伊東豊雄設計，
+特殊的曲面建築與流動空間是歌劇院最大的特色。
+</p>
+<p>
+地址：臺中市西屯區惠來路二段101號<br>
+公共空間：免費
+</p>
+</div>
+
+<div class="place">
+<h2>04｜高美濕地</h2>
+<img src="https://comelymomo.com/wp-content/uploads/2022/08/20220813_184309s.jpg" alt="高美濕地">
+<p>
+高美濕地擁有豐富的濕地生態與開闊海岸景觀，
+也是台中相當知名的夕陽觀賞景點。
+</p>
+<p>
+地點：臺中市清水區<br>
+門票：免費
+</p>
+</div>
+
+<div class="route">
+<b>行前提醒</b><br>
+臺中國家歌劇院週一休館。<br>
+前往高美濕地前，記得確認當日潮汐及木棧道開放時間。
+</div>
+
+<div class="feedback">
+
+<h2>旅遊回饋</h2>
+<p>看完這次的台中一日遊介紹，歡迎留下你的想法！</p>
+
+<p><b>這份旅遊推薦對你有幫助嗎？</b></p>
+
+<label>
+<input type="radio" name="rating"> 非常有幫助
+</label>
+
+<label>
+<input type="radio" name="rating"> 還不錯
+</label>
+
+<label>
+<input type="radio" name="rating"> 普通
+</label>
+
+<p><b>留言</b></p>
+
+<textarea placeholder="留下你的想法..."></textarea>
+
+<br>
+
+<button onclick="alert('謝謝你的回饋！祝你有個愉快的台中旅行！')">
+送出回饋
+</button>
+
+</div>
+
+<footer>
+<p>製作人｜411139557 簡云歆</p>
+<p>
+聯絡信箱｜
+<a href="mailto:janeyunsin@gmail.com">janeyunsin@gmail.com</a>
+</p>
+<p>© 2026 台中一日遊</p>
+</footer>
+
+</body>
+</html>
